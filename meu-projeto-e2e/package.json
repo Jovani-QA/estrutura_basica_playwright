@@ -1,0 +1,15 @@
+{
+  "name": "meu-projeto-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1"
+  }
+}
