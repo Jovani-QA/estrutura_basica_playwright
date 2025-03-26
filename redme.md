@@ -1,7 +1,7 @@
 # Projeto de Testes E2E com Playwright
 
 Este repositório contém um projeto de **testes end-to-end (E2E)** utilizando **Playwright**.
-
+Projeto estruturdo de forma modular 
 ---
 
 ## **1. Requisitos**
@@ -15,9 +15,7 @@ Para verificar se o Node.js está instalado corretamente:
 node -v
 npm -v
 ```
-
 ---
-
 ## **2. Criar o projeto**
 Crie um novo diretório e inicialize um projeto Node.js:
 ```sh
