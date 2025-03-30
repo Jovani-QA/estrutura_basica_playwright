@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "npx playwright test --headed"
+    "test:e2e": "npx playwright test --headed",
+    "test:abc": "set PWDEBUG=1 && npx playwright test --headed",
+    "test: modular": "npx playwright test steps_definitions/login.spec.ts --headed"
+
+
   },
   "keywords": [],
   "author": "",
